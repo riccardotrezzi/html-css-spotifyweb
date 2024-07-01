@@ -1,0 +1,452 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.general-container{
+    height: calc(100vh - 100px);
+}
+
+.general-flex-container{
+    display: flex;
+}
+
+aside{
+    background-color: black;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/*MENU LATERALE*/
+.general-container > aside{
+   width: 200px;
+   overflow: hidden;
+}
+
+.aside-top{
+    height: 185px;
+}
+
+
+#logo-spotify{
+    width: 175px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+nav>ul>li{
+    list-style: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.link-lateral-menu{
+    text-decoration: none;
+    color: #6D6D6D;
+}
+
+.link-lateral-menu > *{
+    margin-right: 5px;
+}
+
+.link-lateral-menu > img{
+    width: 15px;
+}
+
+nav > ul > li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/*ADD PLAYLIST*/
+.aside-playlist-menu{
+    margin: 25px 15px;
+    height: calc(100% - 265px);
+}
+
+#add-playlist-container{
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+#add-playlist{
+    color: #6D6D6D;
+    margin: 15px 0;
+}
+
+#add-playlist > *{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#add-playlist > i{
+    font-size: 30px;
+}
+
+.aside-playlist-menu > div >h4{
+    color: white;
+}
+
+#list-container-aside{
+    height: calc(100% - 65px);
+    overflow-y: auto;
+}
+
+
+#list-container-aside > *{
+    font-size: 14px;
+    color:#6D6D6D;
+    list-style: none;
+}
+
+#list-container-aside > ul > li{
+    margin-bottom: 10px;
+}
+
+/*FOOTER ASIDE*/
+
+.footer-aside{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    height: 80px;
+}
+
+#download-aside{
+    margin: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6D6D6D;
+}
+
+#download-aside > img{
+    width:12px;
+    margin-right:5px;
+}
+
+#download-aside > span{
+    font-size: 12px;
+    color:#6D6D6D;
+}
+
+#profile-aside{
+    margin: 15px;
+}
+
+#profile-aside > *{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#profile-icon > img{
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid white;
+    border-radius: 100%;
+}
+
+#profile-aside:last-child{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*MAIN*/
+
+.general-container > main{
+    width: calc(100% - 200px);
+    overflow-y: auto;
+}
+
+main{
+    background-color: #141922;
+}
+
+/*SEZIONE UPGRADE*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.upgrade-section{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+    padding: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+#button-upgrade{
+    width: max-content;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/*SEZIONE SCELTA CANZONE*/
+
+.nav-main-menu{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-main-menu > h4{
+    color:#6D6D6D;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/*CARD SONG*/
+
+.row-container{
+    margin: 10px 15px;
+}
+
+.row-title-container{
+    margin-bottom: 25px;
+}
+
+.row-title-main{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.my-row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-card{
+    width: calc(100% / 6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.col-card > *{
+    margin-bottom: 15px;
+}
+
+.square-img{
+    width: 175px;
+    height: 175px;
+}
+
+.circle-img{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+
+.title-song{
+    color: white;
+    font: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle-song{
+    color:#6D6D6D;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+/*BARRA CANZONE*/
+
+footer{
+    background-color: #282828;
+}
+
+.playing-menu{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playing-menu > *{
+    width: calc(100% / 3);
+}
+
+/*SX*/
+.song-menu{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.song-menu > *{
+    margin-right: 15px;
+}
+
+.song-menu > img{
+    width: 50px;
+    height: 50px;
+}
+
+#song > h5{
+    color: white;
+    margin-bottom: 5px;
+}
+
+#song > h6{
+    color: #6D6D6D;
+}
+
+.song-menu > div > i{
+    color: #6D6D6D;
+}
+
+/*CENTRALE*/
+.player-up > ul > li{
+    list-style: none;
+    padding: 4px 10px;
+}
+
+.player-up > ul > li > button{
+    border: none;
+    background: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.player-up{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.player-up ul{
+    display: flex;
+    align-items: center;
+}
+
+.player-up > *{
+    margin-right: 15px;
+}
+
+.player-bottom{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.player-bottom > p{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+#timing{
+    flex-grow: 1;
+    background-color: #6D6D6D;
+    height: 3px;
+    border-radius: 1.5px;
+}
+
+#timing > *{
+    background-color: #fafafa;
+    height: 3px;
+    width: 20%;
+    border-radius: 1.5px;
+}
+/*DX*/
+.volume-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volume-menu ul{
+    display: flex;
+}
+
+.volume-menu ul li{
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+}
+
+#volume{
+    width: 150px;
+    background-color: #6D6D6D;
+    height: 3px;
+    border-radius: 1.5px;
+}
+
+#volume > *{
+    background-color: #fafafa;
+    height: 3px;
+    width: 10%;
+    border-radius: 1.5px;
+}
+
+
+/*RESPONSIVE*/
+
+/*Primo Step*/
+@media screen and (max-width: 1100px) {
+
+}
+
+/*Secondo Step*/
+@media screen and (max-width: 700px){
+    
+}
+
+/*Terzo Step*/
+@media screen and (max-width: 600px){
+    
+    /*GENERAL*/
+    .general-container > aside{
+        width: 50px;
+    }
+
+    .general-container > main{
+        width: calc(100% - 50px);
+    }
+
+    /*ICONE*/
+    #logo-spotify{
+        
+    }
+}   

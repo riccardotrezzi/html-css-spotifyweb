@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--FontAweosome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="general-container general-flex-container">
+            
+            <!--MENU LATERALE-->
+            
+            <aside>
+                <div class="lateral-menu lateral-menu-bg">
+                    <div class="aside-top">
+                        <div id="logo-spotify">
+                            <img src="img/logo.svg" alt="Spotify">
+                        </div>
+    
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="link-lateral-menu">
+                                        <img src="img/home.svg" alt="">
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="#" class="link-lateral-menu">
+                                        <img src="img/search.svg" alt="">
+                                        <span>Cerca</span>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="#" class="link-lateral-menu">
+                                        <img src="img/libreria.svg" alt="">
+                                        <span>Libreria</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+
+                    <!--PLAYLIST-->
+                    <div class="aside-playlist-menu"> 
+                        <div id="add-playlist-container">
+                            <h4>
+                                Playlist
+                            </h4>
+    
+                            
+                            <h5 id="add-playlist">
+                                <i class="fa-solid fa-square-plus"></i>
+                                Crea Playlist
+                            </h5>
+                        </div>
+                        
+                        <div id="list-container-aside">
+                            <ul>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="footer-aside">
+                        <div id="download-aside">
+                            <img src="img/download.svg" alt="">
+                            <span>Installa app</span>
+                        </div>
+
+                        <div id="profile-aside">
+
+                            <span id="profile-icon">
+                                <img src="img/profile.svg" alt="">
+                            </span>
+
+                            <span>Riccardo Trezzi</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </aside>
+           
+            <!--MAIN-->
+            <main>
+                <div class="main-container">
+
+                    <!--HEADER-->
+                    <header>
+                        <div class="upgrade-section upgrade-section-bg">
+
+                            <h3 id="button-upgrade">
+                                EFFETTUA UPGRADE
+                            </h3>
+    
+                        </div>
+                    </header>
+
+                    <div class="main-playlist main-playlist-bg">
+
+                        <nav class="nav-main-menu">
+                            <h4>IN EVIDENZA</h4>
+                            <h4>PODCAST</h4>
+                            <h4>CLASSIFICHE</h4>
+                            <h4>GENERI E MOOD</h4>
+                            <h4>NUOVE USCITE</h4>
+                            <h4>SCOPRI</h4>
+                        </nav>
+                        
+                        <!--SONG ROW-->
+
+                        <section class="row-container">
+
+                            <div class="row-title-container">
+                                <h3 class="row-title-main">
+                                    Recently played
+                                </h3>
+                            </div>
+
+
+                            <div class="my-row-main">
+
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/metal_lifting.jpg" alt="heavy-metal">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Heavy Metal
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Subtitle
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/stranger.jpeg" alt="stranger-things">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Kyle Dixon & Michael Stein
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/aquietplace.jpeg" alt="aquietplace">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            A quiet place
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Subtitle
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/split.jpeg" alt="split">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Split
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Subtitle
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/cure.jpeg" alt="acureforwellnes">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            A cure for wellness
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Subtitle
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/sinister.jpeg" alt="sinister">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Sinister
+                                        </h4>
+                                        <h6 class="subtitle-song">
+                                            Subtitle
+                                        </h6>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+
+                        </section>
+                    
+                        <section class="row-container">
+
+                            <div class="row-title-container">
+                                <h3 class="row-title-main">
+                                    Creato per Riccardo Trezzi
+                                </h3>
+
+                                <h4 class="subtitle-song">
+                                    Più ascolti, più accurati saranno i suggerimenti.
+                                </h4>
+                            </div>
+
+
+                            <div class="my-row-main">
+
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/radar.jpeg" alt="">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Realese Radar
+                                        </h4>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="square-img">
+                                        <img src="img/mixdaily.jpeg" alt="">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Daily Mix 1
+                                        </h4>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+
+                        </section>
+
+                        <section class="row-container">
+
+                            <div class="row-title-container">
+                                <h3 class="row-title-main">
+                                    Artisti più popolari
+                                </h3>
+
+                                <h4 class="subtitle-song">
+                                    Più ascolti, più accurati saranno i suggerimenti.
+                                </h4>
+                            </div>
+
+
+                            <div class="my-row-main">
+
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="circle-img">
+                                        <img src="img/youg.jpeg" alt="">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Lana del Rey
+                                        </h4>
+                                    </div>
+    
+                                </div>
+    
+                                <!--SONG CARD-->
+                                <div class="col-card">
+    
+                                    <div class="circle-img">
+                                        <img src="img/einaudi.jpeg" alt="">
+                                    </div>
+    
+                                    <div>
+                                        <h4 class="title-song">
+                                            Ludovico Einaudi
+                                        </h4>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+
+                        </section>
+
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+
+        <!--Barra Canzone-->
+        
+        <footer>
+
+            <section class="playing-menu">
+
+                <!--Parte SX-->
+                <div class="song-menu">
+
+                    <img src="img/Austin.webp" alt="">
+
+                    <div id="song">
+                        <h5>Enough is Enough</h5>
+                        <h6>Post Malone</h6>
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+                </div>
+
+                <!--Parte Centrale-->
+                <div class="player">
+                    <div class="player-up">
+                        <ul>
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-shuffle fa-xl"></i>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-backward-step fa-xl"></i>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button>
+                                    <i class="fa-regular fa-circle-play fa-2x"></i>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-forward-step fa-xl"></i>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button>
+                                    <i class="fa-solid fa-arrow-rotate-right fa-xl"></i>
+                                </button>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="player-bottom">
+                        <p>1.25</p>
+
+                        <div id="timing">
+                            <div></div>
+                        </div>
+
+                        <p>4.35</p>
+                    </div>
+                </div>
+
+                <!--Parte DX-->
+                <div class="volume-menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-list-ul"></i>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-display"></i>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-volume-high"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="volume">
+                        <div></div>
+                    </div>
+                    
+                </div>
+
+            </section>
+        </footer>
+
+        
+    </body>
+</html>
