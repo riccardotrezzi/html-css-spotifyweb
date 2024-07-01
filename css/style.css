@@ -439,11 +439,21 @@ footer{
     .nav-main-menu > h4{
         margin-bottom: 15px;
     }
+
+    /*MAIN CARD*/
+    .col-card{
+        width: calc(100% / 4);
+    }
+
 }
 
 /*Secondo Step*/
 @media screen and (max-width: 700px){
-    
+
+    /*MAIN CARD*/
+     .col-card{
+        width: calc(100% / 2);
+    }
 }
 
 /*Terzo Step*/
